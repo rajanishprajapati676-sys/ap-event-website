@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+
+.hero{
+    text-align:center;
+    color:white;
+    padding:100px 20px;
+    background:linear-gradient(135deg,#0d6efd,#00c6ff);
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+button{
+    background:#ff9800;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.about,
+.services,
+.why,
+.contact,
+#booking{
+    padding:50px;
+    text-align:center;
+}
+
+.card{
+    background:white;
+    width:250px;
+    margin:15px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px #ccc;
+}
+
+form{
+    width:350px;
+    margin:auto;
+}
+
+input,
+select{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
